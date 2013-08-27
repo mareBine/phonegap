@@ -34,6 +34,11 @@ var app = {
             //app.showAlert($(this).valueOf());
             app.showAlert("test");
         });
+
+        $( "#button1" ).click(function() {
+            //app.showAlert($(this).valueOf());
+            app.showAlert("button1 clicked");
+        });
     }
 
 
